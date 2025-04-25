@@ -1,0 +1,84 @@
+/* The Boca Breeze Admin Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body.wp-admin.tools_page_the-boca-breeze {
+    background: url('https://www.transparenttextures.com/patterns/geometry.png') repeat !important;
+    background-color: #fefcea !important;
+}
+
+.wrap {
+    background: linear-gradient(135deg, #f6f9fc, #fffbe6) !important;
+    border-radius: 12px !important;
+    border: 3px solid #00c9ff !important;
+    padding: 30px !important;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1) !important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+.wrap h1 {
+    font-family: 'Orbitron', sans-serif !important;
+    font-size: 2.5em !important;
+    background: linear-gradient(90deg, #00c9ff, #92fe9d) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+}
+
+.wrap p {
+    font-family: 'Arial', sans-serif !important;
+    font-size: 16px !important;
+    max-width: 700px !important;
+    color: #2e3a59 !important;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2) !important;
+    margin-right: 8px !important;
+}
+
+.wrap label {
+    font-size: 15px !important;
+    color: #333 !important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+input[type="submit"],
+button.button-primary {
+    font-family: 'Orbitron', sans-serif !important;
+    background: linear-gradient(to right, #f83600, #f9d423) !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 12px 25px !important;
+    border-radius: 8px !important;
+    font-size: 15px !important;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2) !important;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.15) !important;
+    cursor: pointer !important;
+    margin-right: 10px !important;
+}
+
+input[type="submit"]:hover,
+button.button-primary:hover {
+    background: linear-gradient(to right, #ff512f, #dd2476) !important;
+}
+
+.notice-info ul {
+    padding-left: 20px !important;
+    margin-top: 0 !important;
+    color: #1f3556 !important;
+    list-style-type: disc !important;
+    font-size: 14px !important;
+}
+
+.notice-success {
+    border-left-color: #00c853 !important;
+    font-size: 14px !important;
+}
+
+.notice-success p {
+    font-size: 15px !important;
+    color: #2d572c !important;
+}
